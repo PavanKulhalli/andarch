@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="edu.jspm.rscoe.andarch" android:versionName="0.1dev1" android:versionCode="1"><application android:icon="@drawable/icon" android:label="@string/app_name" android:description="@string/app_description" android:enabled="true">
+        <activity android:name="Menu">
+			<intent-filter> <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" /></intent-filter>
+        </activity>
+        <activity android:name="ModelChooser" android:icon="@drawable/icon">            
+ 		</activity>
+ 		<activity android:label="@string/app_name" android:icon="@drawable/icon" android:name="CheckFileManagerActivity">
+<!--           <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+
+    
+
+<activity android:exported="false" android:clearTaskOnLaunch="true" android:screenOrientation="landscape" android:icon="@drawable/icon" android:name="AugmentedModelViewerActivity">
+</activity>
+<activity android:exported="false" android:icon="@drawable/icon" android:name="InstructionsActivity">
+</activity>
+
+
+
+<activity android:name="ConvertModel"></activity>
+
+</application>
+<uses-sdk android:targetSdkVersion="8" android:minSdkVersion="8"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.CAMERA"/>
+<uses-feature android:name="android.hardware.camera" />
+<uses-feature android:name="android.hardware.camera.autofocus" />
+<supports-screens android:smallScreens="true" 
+                  android:normalScreens="true"
+                  android:largeScreens="true" 
+                  android:anyDensity="true" />
+</manifest> 
