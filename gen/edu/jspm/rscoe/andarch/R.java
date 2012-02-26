@@ -24,12 +24,18 @@ public final class R {
         public static final int translate=0x7f02000a;
     }
     public static final class id {
-        public static final int InfoText=0x7f050005;
+        public static final int InfoText=0x7f05000b;
+        public static final int btnBrowse=0x7f050005;
+        public static final int btnConvert=0x7f050007;
+        public static final int chkDeleteOriginalFile=0x7f050006;
         public static final int choose_model_row_icon=0x7f050000;
         public static final int choose_model_row_text=0x7f050001;
-        public static final int instructions_webview=0x7f050003;
-        public static final int list_header_title=0x7f050004;
-        public static final int textView1=0x7f050002;
+        public static final int instructions_webview=0x7f050009;
+        public static final int list_header_title=0x7f05000a;
+        public static final int prgConvert=0x7f050008;
+        public static final int relativeLayout1=0x7f050002;
+        public static final int textView1=0x7f050003;
+        public static final int txtChooseModelToConvert=0x7f050004;
     }
     public static final class layout {
         public static final int choose_model_row=0x7f030000;
@@ -43,12 +49,16 @@ public final class R {
         public static final int android_markt_not_avail=0x7f040002;
         public static final int app_description=0x7f04000a;
         public static final int app_name=0x7f040000;
+        public static final int browse_for_a_model=0x7f04001a;
         public static final int choose_a_model=0x7f040011;
         public static final int choose_custom_model=0x7f04000e;
         public static final int choose_local_file=0x7f040017;
+        public static final int choose_model_to_convert=0x7f04001b;
+        public static final int convert=0x7f04001d;
         public static final int convert_model=0x7f040015;
         public static final int convert_model_instruction=0x7f040019;
         public static final int custom_model=0x7f040013;
+        public static final int delete_original_file=0x7f04001c;
         public static final int file_doesnt_exist=0x7f040004;
         public static final int help=0x7f040012;
         public static final int help_file=0x7f040014;
@@ -61,7 +71,7 @@ public final class R {
         public static final int scale=0x7f040008;
         public static final int screenshotfailed=0x7f04000d;
         public static final int screenshotsaved=0x7f04000c;
-        public static final int select_model=0x7f04001a;
+        public static final int select_model=0x7f04001e;
         public static final int select_model_file=0x7f040001;
         public static final int take_screenshot=0x7f04000b;
         public static final int translate=0x7f040007;
