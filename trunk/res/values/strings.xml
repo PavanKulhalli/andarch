@@ -29,4 +29,8 @@
 <string name="choose_local_file">Choose a local file</string>
 <string name="quit">Quit</string>
 <string name="convert_model_instruction">This part of the application does not work yet. Keep checking back for updates to the application. This functionality is a priority for us.</string>
+<string name="browse_for_a_model">Browse</string>
+<string name="choose_model_to_convert">Choose model file to convert</string>
+<string name="delete_original_file">Delete original file</string>
+<string name="convert">Convert</string>
 </resources>
