@@ -54,16 +54,16 @@ public class CheckFileManagerActivity extends Activity {
 	/*
 	 * Dialogs:
 	 */
-	private final int INSTALL_INTENT_DIALOG=1;
+	protected final int INSTALL_INTENT_DIALOG=1;
 	
-	private PackageManager packageManager;
-	private Resources res;
-	private TextView infoText;
+	protected PackageManager packageManager;
+	protected Resources res;
+	protected TextView infoText;
 	
 	/**
 	 * Constants:
 	 */
-	private final int TOAST_TIMEOUT = 3;
+	protected final int TOAST_TIMEOUT = 3;
 	
     /** Called when the activity is first created.
      * @param savedInstanceState saved instance state
@@ -159,7 +159,7 @@ public class CheckFileManagerActivity extends Activity {
     
     /** Let the user select a File. The selected file will be handled in 
      *  {@link edu.jspm.rscoe.andarch.CheckFileManagerActivity#onActivityResult(int, int, Intent)} */
-    private void selectFile() {    	
+    protected void selectFile() {    	
     	//let the user select a model file
         Intent intent = new Intent("org.openintents.action.PICK_FILE");
         intent.setData(Uri.parse("file:///sdcard/"));
@@ -178,7 +178,7 @@ public class CheckFileManagerActivity extends Activity {
      * @return True if an Intent with the specified action can be sent and
      * responded to, false otherwise.
      */
-    private boolean isPickFileIntentAvailable() {
+    protected boolean isPickFileIntentAvailable() {
 	    return packageManager.queryIntentActivities(
 	    		new Intent("org.openintents.action.PICK_FILE"), 0).size() > 0;
     }
@@ -188,7 +188,7 @@ public class CheckFileManagerActivity extends Activity {
      * file picking
      * @return boolean indicates if the android market is present on the phone
      */
-    private boolean installPickFileIntent() {
+    protected boolean installPickFileIntent() {
     	Uri marketUri = Uri.parse("market://search?q=pname:org.openintents.filemanager");
         Intent marketIntent = new Intent(Intent.ACTION_VIEW).setData(marketUri);
         if (!(packageManager
