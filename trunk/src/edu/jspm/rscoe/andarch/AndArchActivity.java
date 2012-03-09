@@ -11,14 +11,11 @@ import java.io.IOException;
 import java.net.URI;
 import java.util.Date;
 
-import android.app.AlertDialog;
 import android.app.ProgressDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.CompressFormat;
-import android.opengl.GLSurfaceView;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Debug;
@@ -29,13 +26,9 @@ import android.view.SurfaceHolder;
 import android.view.View;
 import android.view.View.OnTouchListener;
 import android.widget.Toast;
-
-
 import edu.dhbw.andar.ARToolkit;
 import edu.dhbw.andar.AndARActivity;
 import edu.dhbw.andar.exceptions.AndARException;
-import edu.dhbw.andar.interfaces.OpenGLRenderer;
-import edu.jspm.rscoe.andarch.R;
 import edu.jspm.rscoe.andarch.graphics.LightingRenderer;
 import edu.jspm.rscoe.andarch.graphics.Model3D;
 import edu.jspm.rscoe.andarch.models.Model;
@@ -51,7 +44,7 @@ import edu.jspm.rscoe.andarch.util.SDCardFileUtil;
  * @author Tobi
  *
  */
-public class AugmentedModelViewerActivity extends AndARActivity implements SurfaceHolder.Callback {
+public class AndArchActivity extends AndARActivity implements SurfaceHolder.Callback {
 	
 	/**
 	 * View a file in the assets folder
@@ -76,7 +69,7 @@ public class AugmentedModelViewerActivity extends AndARActivity implements Surfa
 	private ProgressDialog waitDialog;
 	private Resources res;
 	ARToolkit artoolkit;
-	public AugmentedModelViewerActivity() {
+	public AndArchActivity() {
 		super(false);
 	}
 	
@@ -333,9 +326,9 @@ public class AugmentedModelViewerActivity extends AndARActivity implements Surfa
 		protected void onPostExecute(Void result) {
 			
 			if(errorMsg == null) {
-				Toast.makeText(AugmentedModelViewerActivity.this, getResources().getText(R.string.screenshotsaved), Toast.LENGTH_SHORT ).show();
+				Toast.makeText(AndArchActivity.this, getResources().getText(R.string.screenshotsaved), Toast.LENGTH_SHORT ).show();
 			} else {
-				Toast.makeText(AugmentedModelViewerActivity.this, getResources().getText(R.string.screenshotfailed)+errorMsg, Toast.LENGTH_SHORT ).show();
+				Toast.makeText(AndArchActivity.this, getResources().getText(R.string.screenshotfailed)+errorMsg, Toast.LENGTH_SHORT ).show();
 			}
 		};
 		

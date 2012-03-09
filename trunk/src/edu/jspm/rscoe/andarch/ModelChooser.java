@@ -89,9 +89,9 @@ public class ModelChooser extends ListActivity {
 	        startActivity(intent);
 		} else {
 			//load the selected internal file
-			Intent intent = new Intent(ModelChooser.this, AugmentedModelViewerActivity.class);
+			Intent intent = new Intent(ModelChooser.this, AndArchActivity.class);
 	        intent.putExtra("name", str+".obj");
-	        intent.putExtra("type", AugmentedModelViewerActivity.TYPE_INTERNAL);
+	        intent.putExtra("type", AndArchActivity.TYPE_INTERNAL);
 	        intent.setAction(Intent.ACTION_VIEW);
 	        startActivity(intent);
 		}

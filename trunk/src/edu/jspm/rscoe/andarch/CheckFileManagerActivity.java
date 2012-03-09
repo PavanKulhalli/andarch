@@ -116,9 +116,9 @@ public class CheckFileManagerActivity extends Activity {
 			    				selectFile();
 			    			} else {
 				    			//hand over control to the model viewer
-					    		Intent intent = new Intent(CheckFileManagerActivity.this, AugmentedModelViewerActivity.class);
+					    		Intent intent = new Intent(CheckFileManagerActivity.this, AndArchActivity.class);
 					            intent.putExtra("name", data.getDataString());
-					            intent.putExtra("type", AugmentedModelViewerActivity.TYPE_EXTERNAL);
+					            intent.putExtra("type", AndArchActivity.TYPE_EXTERNAL);
 					            intent.setAction(Intent.ACTION_VIEW);
 					            startActivityForResult(intent, VIEW_MODEL);
 			    			}
