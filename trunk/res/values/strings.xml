@@ -7,9 +7,11 @@
 <string name="pickfile_intent_required">You need to install the OI File Manager in order to use this application.</string>
 <string name="file_doesnt_exist">This file doesn\'t exist!</string>
 <string name="unknown_file_type">Unknown file type!</string>
-<string name="rotate">rotate</string>
-<string name="translate">translate</string>
-<string name="scale">scale</string>
+<string name="rotate_x">Rotate along X Axis</string>
+<string name="rotate_y">Rotate along Y Axis</string>
+<string name="rotate_z">Rotate along Z Axis</string>
+<string name="translate">Translate</string>
+<string name="scale">Scale</string>
 
 
 
