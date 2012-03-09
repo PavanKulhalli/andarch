@@ -33,7 +33,7 @@ public final class R {
         public static final int instructions_webview=0x7f050009;
         public static final int list_header_title=0x7f05000a;
         public static final int prgConvert=0x7f050008;
-        public static final int relativeLayout1=0x7f050002;
+        public static final int relLayout=0x7f050002;
         public static final int textView1=0x7f050003;
         public static final int txtChooseModelToConvert=0x7f050004;
     }
