@@ -99,6 +99,10 @@ public class Model implements Serializable{
 	public void setYrot(float dX) {
 		this.yrot += dX;
 	}
+	
+	public void setZrot(float dX) {
+		this.zrot += dX;
+	}
 
 	public void setXpos(float f) {
 		this.xpos += f;

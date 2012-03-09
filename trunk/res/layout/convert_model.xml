@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/relativeLayout1"
+    android:id="@+id/relLayout"
     android:layout_width="wrap_content"
     android:layout_height="match_parent" >
 
@@ -32,13 +32,15 @@
         android:layout_below="@+id/txtChooseModelToConvert"
         android:layout_marginTop="19dp"
         android:text="@string/delete_original_file" />
-
+
     <Button
         android:id="@+id/btnBrowse"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignRight="@+id/textView1"
         android:layout_alignTop="@+id/txtChooseModelToConvert"
+        android:clickable="true"
+        android:onClick="new Intent (ConvertModel.this, ChooseFileToConvert.class)"
         android:text="@string/browse_for_a_model" />
 
     <Button

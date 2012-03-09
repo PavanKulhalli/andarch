@@ -14,7 +14,7 @@ public class ChooseFileToConvert extends CheckFileManagerActivity {
 	public static final int RESULT_ERROR = 3;
 
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-	    	super.onActivityResult(requestCode, resultCode, data);
+	    	//super.onActivityResult(requestCode, resultCode, data);
 	    	switch (requestCode) {
 	    		default:
 		    	case PICK_FILE:
