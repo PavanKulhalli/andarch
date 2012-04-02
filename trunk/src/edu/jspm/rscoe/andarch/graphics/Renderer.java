@@ -26,7 +26,7 @@ import java.util.Vector;
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
 
-import edu.jspm.rscoe.andarch.AndArchActivity;
+import edu.jspm.rscoe.andarch.AugmentedModelViewerActivity;
 import edu.jspm.rscoe.andarch.models.Vector3D;
 import edu.jspm.rscoe.andarch.util.MemUtil;
 
@@ -62,7 +62,7 @@ public class Renderer implements GLSurfaceView.Renderer {
 	
 	@Override
 	public void onDrawFrame(GL10 gl) {
-		if(AndArchActivity.DEBUG) {
+		if(AugmentedModelViewerActivity.DEBUG) {
 			frame++;
 			time=System.currentTimeMillis();
 			if (time - timebase > 1000) {

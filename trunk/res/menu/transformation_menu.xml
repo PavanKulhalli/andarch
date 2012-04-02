@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/translate" android:enabled="true" android:visible="true" android:title="@string/translate" android:icon="@drawable/translate"></item>
+    <item android:id="@+id/rotate" android:enabled="true" android:visible="true" android:title="@string/rotate" android:icon="@drawable/rotate">
+        <menu>
+            <item android:id="@+id/rotate_x" android:visible="true" android:title="@string/rotate_x" android:enabled="true" android:icon="@drawable/rotate" />
+            <item android:id="@+id/rotate_y" android:visible="true" android:enabled="true" android:icon="@drawable/rotate" android:title="@string/rotate_y" />
+            <item android:id="@+id/rotate_z" android:visible="true" android:title="@string/rotate_z" android:enabled="true" android:icon="@drawable/rotate" />
+        </menu>
+    </item><item android:id="@+id/scale" android:title="Scale" android:enabled="true" android:visible="true" android:icon="@drawable/scale"></item>
+    
+    
+    <item android:id="@+id/stop_operation" android:enabled="true" android:visible="true" android:icon="@drawable/stop_oper" android:title="@string/stop_operation"></item><item android:id="@+id/screenshot" android:enabled="true" android:visible="true" android:icon="@drawable/screenshoticon" android:title="@string/take_screenshot"></item>
+    <item android:id="@+id/mode" android:title="@string/toggle_mode" android:enabled="true" android:visible="true" android:icon="@drawable/marker"></item>
+    
+
+</menu>
