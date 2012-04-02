@@ -13,29 +13,41 @@ public final class R {
     public static final class drawable {
         public static final int convert=0x7f020000;
         public static final int help=0x7f020001;
-        public static final int icon=0x7f020002;
-        public static final int missingimage=0x7f020003;
-        public static final int model=0x7f020004;
-        public static final int open=0x7f020005;
-        public static final int quit=0x7f020006;
-        public static final int rotate=0x7f020007;
-        public static final int scale=0x7f020008;
-        public static final int screenshoticon=0x7f020009;
-        public static final int translate=0x7f02000a;
+        public static final int ic_launcher=0x7f020002;
+        public static final int icon=0x7f020003;
+        public static final int marker=0x7f020004;
+        public static final int missingimage=0x7f020005;
+        public static final int model=0x7f020006;
+        public static final int open=0x7f020007;
+        public static final int quit=0x7f020008;
+        public static final int rotate=0x7f020009;
+        public static final int scale=0x7f02000a;
+        public static final int screenshoticon=0x7f02000b;
+        public static final int stop_oper=0x7f02000c;
+        public static final int translate=0x7f02000d;
     }
     public static final class id {
-        public static final int InfoText=0x7f05000b;
-        public static final int btnBrowse=0x7f050005;
-        public static final int btnConvert=0x7f050007;
-        public static final int chkDeleteOriginalFile=0x7f050006;
-        public static final int choose_model_row_icon=0x7f050000;
-        public static final int choose_model_row_text=0x7f050001;
-        public static final int instructions_webview=0x7f050009;
-        public static final int list_header_title=0x7f05000a;
-        public static final int prgConvert=0x7f050008;
-        public static final int relLayout=0x7f050002;
-        public static final int textView1=0x7f050003;
-        public static final int txtChooseModelToConvert=0x7f050004;
+        public static final int InfoText=0x7f06000b;
+        public static final int btnBrowse=0x7f060005;
+        public static final int btnConvert=0x7f060007;
+        public static final int chkDeleteOriginalFile=0x7f060006;
+        public static final int choose_model_row_icon=0x7f060000;
+        public static final int choose_model_row_text=0x7f060001;
+        public static final int instructions_webview=0x7f060009;
+        public static final int list_header_title=0x7f06000a;
+        public static final int mode=0x7f060014;
+        public static final int prgConvert=0x7f060008;
+        public static final int relLayout=0x7f060002;
+        public static final int rotate=0x7f06000d;
+        public static final int rotate_x=0x7f06000e;
+        public static final int rotate_y=0x7f06000f;
+        public static final int rotate_z=0x7f060010;
+        public static final int scale=0x7f060011;
+        public static final int screenshot=0x7f060013;
+        public static final int stop_operation=0x7f060012;
+        public static final int textView1=0x7f060003;
+        public static final int translate=0x7f06000c;
+        public static final int txtChooseModelToConvert=0x7f060004;
     }
     public static final class layout {
         public static final int choose_model_row=0x7f030000;
@@ -45,10 +57,14 @@ public final class R {
         public static final int main=0x7f030004;
         public static final int menu=0x7f030005;
     }
+    public static final class menu {
+        public static final int transformation_menu=0x7f050000;
+    }
     public static final class string {
         public static final int android_markt_not_avail=0x7f040002;
         public static final int app_description=0x7f04000c;
         public static final int app_name=0x7f040000;
+        public static final int augmented_mode_toast=0x7f040027;
         public static final int browse_for_a_model=0x7f04001c;
         public static final int choose_a_model=0x7f040013;
         public static final int choose_custom_model=0x7f040010;
@@ -62,23 +78,29 @@ public final class R {
         public static final int file_doesnt_exist=0x7f040004;
         public static final int help=0x7f040014;
         public static final int help_file=0x7f040016;
+        public static final int hybrid_mode_toast=0x7f040026;
         public static final int instructions=0x7f040011;
         public static final int loading=0x7f04000b;
         public static final int menu=0x7f040018;
         public static final int pickfile_intent_required=0x7f040003;
         public static final int quit=0x7f04001a;
-        public static final int rotate=0x7f040020;
+        public static final int rotate=0x7f040023;
         public static final int rotate_x=0x7f040006;
         public static final int rotate_y=0x7f040007;
         public static final int rotate_z=0x7f040008;
         public static final int scale=0x7f04000a;
         public static final int screenshotfailed=0x7f04000f;
         public static final int screenshotsaved=0x7f04000e;
-        public static final int select_model=0x7f040021;
+        public static final int select_model=0x7f040028;
         public static final int select_model_file=0x7f040001;
+        public static final int set_marker_off=0x7f040020;
+        public static final int set_marker_on=0x7f040021;
+        public static final int stop_operation=0x7f040022;
         public static final int take_screenshot=0x7f04000d;
+        public static final int toggle_mode=0x7f040024;
         public static final int translate=0x7f040009;
         public static final int unknown_file_type=0x7f040005;
+        public static final int virtual_mode_toast=0x7f040025;
         public static final int wrong_file=0x7f040012;
     }
 }

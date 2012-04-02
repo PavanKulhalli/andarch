@@ -35,4 +35,12 @@
 <string name="choose_model_to_convert">Choose model file to convert</string>
 <string name="delete_original_file">Delete original file</string>
 <string name="convert">Convert</string>
+<string name="set_marker_off">Turn off marker detection</string>
+<string name="set_marker_on">Turn on marker detection</string>
+<string name="stop_operation">Stop operation</string>
+<string name="rotate">Rotate</string>
+<string name="toggle_mode">Toggle Mode</string>
+<string name="virtual_mode_toast">Current mode: Pure Virtual Reality</string>
+<string name="hybrid_mode_toast">Current mode: Hybrid Mode (Virtual + Augmented)</string>
+<string name="augmented_mode_toast">Current mode: Strict Augmented Reality</string>
 </resources>
