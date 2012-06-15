@@ -42,7 +42,7 @@ public class ChooseFileToConvert extends CheckFileManagerActivity {
 				    	default:
 				    	case Activity.RESULT_CANCELED:
 				    		//back to the main activity
-				    		Intent intent = new Intent(ChooseFileToConvert.this, ModelChooser.class);
+				    		Intent intent = new Intent(ChooseFileToConvert.this, Menu.class);
 				            startActivity(intent);
 				    		break;
 			    	}
