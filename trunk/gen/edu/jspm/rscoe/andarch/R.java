@@ -13,18 +13,17 @@ public final class R {
     public static final class drawable {
         public static final int convert=0x7f020000;
         public static final int help=0x7f020001;
-        public static final int ic_launcher=0x7f020002;
-        public static final int icon=0x7f020003;
-        public static final int marker=0x7f020004;
-        public static final int missingimage=0x7f020005;
-        public static final int model=0x7f020006;
-        public static final int open=0x7f020007;
-        public static final int quit=0x7f020008;
-        public static final int rotate=0x7f020009;
-        public static final int scale=0x7f02000a;
-        public static final int screenshoticon=0x7f02000b;
-        public static final int stop_oper=0x7f02000c;
-        public static final int translate=0x7f02000d;
+        public static final int icon=0x7f020002;
+        public static final int marker=0x7f020003;
+        public static final int missingimage=0x7f020004;
+        public static final int model=0x7f020005;
+        public static final int open=0x7f020006;
+        public static final int quit=0x7f020007;
+        public static final int rotate=0x7f020008;
+        public static final int scale=0x7f020009;
+        public static final int screenshoticon=0x7f02000a;
+        public static final int stop_oper=0x7f02000b;
+        public static final int translate=0x7f02000c;
     }
     public static final class id {
         public static final int InfoText=0x7f06000b;
