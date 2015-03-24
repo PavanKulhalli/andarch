@@ -1,0 +1,1 @@
+Based on Andar, AndArch tries to simplify the life of Architects and Civil Engineers by allowing them to replace paper models with virtual models that are easy to manipulate on a handheld device. AndArch tries for these models to appear as realistic as possible unlike fully virtual models.
